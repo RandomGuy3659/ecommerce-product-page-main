@@ -14,8 +14,8 @@
     .attribution a { color: hsl(228, 45%, 44%); }
     .content p { font-size: 16px; font-family: Kumbh Sans; font-weight: 400, 700;}
     .mobile-display{display:none}
-    .desktop-display{display:block}
-    @media (max-width:800px){
+    .desktop-display{display:block; max-width: 1440}
+    @media (max-width:375){
     .desktop-display {display:none}
     .mobile-display {display:block}
     }
@@ -26,10 +26,128 @@
   <div class="mobile-display">
     <p>'Mobile Display' is active.</p>
     <br/>
+    <header>
+      //header left
+      <div>
+        //menu button
+        <div>
+          //sidebar
+            //exit menubutton
+            //nav
+              //ul of (dead)links
+        </div>
+        <div>
+          //(a)nchored logo to home
+        </div>
+      </div>
+      //header right
+      <div>
+        <div>
+          //cart icon
+          <div>
+            //checkout (no display until cart is clicked) center
+            //feature a list of all checkouts,
+            //a no items error message,
+            //and a checkout button
+          </div>
+        </div>
+        <div>
+          //profile image
+        </div>
+      </div>
+    </header>
+    <div id="main">
+      <div>
+        //image display
+        <div>
+          //main image and two scroll buttons
+        </div>
+        <div>
+          //list of images
+        </div>
+      </div>
+      <div>
+        //product information
+        //pricing
+        <div>
+          //cart
+          <div>
+            //amount setter
+          </div>
+          <div>
+            //add to cart button
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="desktop-display">
     <p>'Desktop Display' is active.</p>
     <br/>
+    <header>
+      //header left
+      <div>
+        <div>
+          //(a)nchored logo to home
+        </div>
+        <div>
+          //nav
+            //ul of (dead)links          
+        </div>
+      </div>
+      //header right
+      <div>
+        <div>
+          //cart icon
+          <div>
+            //checkout (no display until cart is clicked) right
+            //feature a list of all checkouts,
+            //a no items error message,
+            //and a checkout button
+          </div>
+        </div>
+        <div>
+          //profile image
+        </div>
+      </div>
+    </header>
+    <div id="main">
+      //wrapper div
+      <div>
+        //body left
+        <div>
+          <div>
+            //image display
+            <div>
+              //main image and two scroll buttons
+              //main image opens lightbox
+              <div>
+                //lightbox
+              </div>
+            </div>
+            <div>
+              //list of images
+            </div>
+          </div>
+        </div>
+        //body right
+        <div>
+          <div>
+            //product information
+            //pricing
+            <div>
+              //cart
+              <div>
+                //amount setter
+              </div>
+              <div>
+                //add to cart button
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   Collections
@@ -52,6 +170,15 @@
   0
   Add to cart
   
+  //req. scripts
+  //activate sidebar/checkout
+  // function that sets image to selected integer:
+  //displayImage(int x){
+  //int img = x;
+  //set picture to img}
+  //function to increase or decrease the items to cart
+  //function to add selected item to a list in the checkout in set amount
+  //function that loads all the items in the cart to the checkout display
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Nathan Cochrane</a>.

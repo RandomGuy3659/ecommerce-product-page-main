@@ -96,7 +96,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [W3Schools: how to make a lightbox injavascript](https://www.w3schools.com/howto/howto_js_lightbox.asp) - This is an amazing article which helped me finally understand how to make a lightbox for their websites. I'd recommend it to anyone who can read the code and is struggling with lightboxes.
 - [How to show different content on mobile and desktop](https://www.namehero.com/startup/how-to-show-different-content-for-mobile-and-desktop/) - This helped me by providing a simple solution to the mobile/desktop display issue.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
