@@ -12,14 +12,26 @@
   <style media="all">
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-    .content p { font-size: 16px; font-family: Kumbh Sans; font-weight: 400, 700;}
+
+    @font-face {
+      font-family: Kumbh-Sans;
+      src: url(Kumbh_Sans\KumbhSans-VariableFont_wght.ttf);
+    }
+
+    body { font-size: 16px; font-family: Kumbh-Sans}
+    .label { color: hsl(26, 100%, 55%); font-weight: 400}
+    .heading {color: hsl(220, 13%, 13%); font-weight: 700}
+    .text {color: hsl(220, 14%, 75%); font-weight: 400;}
+    .price {color: hsl(219, 9%, 45%); font-weight: 700;}
+    .sale {color: hsl(26, 100%, 55%); background-color: hsl(25, 100%, 94%); font-weight: 400;}
+    .priceslash {color: hsl(223, 64%, 98%); font-weight: 400;}
+    
     .mobile-display{display:none}
     .desktop-display{display:block; max-width: 1440}
     @media (max-width:375){
     .desktop-display {display:none}
     .mobile-display {display:block}
     }
-</style>
   </style>
 </head>
 <body class="content">
@@ -31,10 +43,16 @@
       <div>
         //menu button
         <div>
-          //sidebar
+          //sidebar (wrap on top of everything)
             //exit menubutton
-            //nav
-              //ul of (dead)links
+            <br/>
+            <ul class="nav">
+              <li><a href="#">Collections</a></li><br/>
+              <li><a href="#">Men</a></li><br/>
+              <li><a href="#">Women</a></li><br/>
+              <li><a href="#">About</a></li><br/>
+              <li><a href="#">Contact</a></li>
+            </ul>
         </div>
         <div>
           //(a)nchored logo to home
@@ -67,8 +85,16 @@
         </div>
       </div>
       <div>
-        //product information
-        //pricing
+        <p class="label">Sneaker Company</p>
+
+        <p class="heading"><strong>Limited Edition Sneakers</strong></p>
+      
+        <p class="text">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+        durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+      
+        <span class="price"><strong>$125.00</strong></span>
+        <span class="sale">50%</span>
+        <p class="priceslash"><del>$250.00</del></p>
         <div>
           //cart
           <div>
@@ -91,8 +117,13 @@
           //(a)nchored logo to home
         </div>
         <div>
-          //nav
-            //ul of (dead)links          
+          <ul class="nav">
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>  
         </div>
       </div>
       //header right
@@ -133,8 +164,16 @@
         //body right
         <div>
           <div>
-            //product information
-            //pricing
+            <p class="label">Sneaker Company</p>
+
+            <p class="heading"><strong>Limited Edition Sneakers</strong></p>
+          
+            <p class="text">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+            durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+          
+            <span class="price"><strong>$125.00</strong></span>
+            <span class="sale">50%</span>
+            <p class="priceslash"><del>$250.00</del></p>    
             <div>
               //cart
               <div>
@@ -170,15 +209,15 @@
   0
   Add to cart
   
-  //req. scripts
-  //activate sidebar/checkout
+  <!--//req. scripts
+  //activate sidebar/checkout menuON() {sets menu/sidebar to true} menuOff() sidebar will switch between display:block and display:none depending on boolean
   // function that sets image to selected integer:
   //displayImage(int x){
   //int img = x;
   //set picture to img}
   //function to increase or decrease the items to cart
   //function to add selected item to a list in the checkout in set amount
-  //function that loads all the items in the cart to the checkout display
+  //function that loads all the items in the cart to the checkout display -->
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Nathan Cochrane</a>.
