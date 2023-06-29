@@ -1,0 +1,21 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.content {
+font-family: 'Kumbh-Sans', sans-serif;
+}
+
+body { font-size: 16px; font-family: Kumbh-Sans}
+.label { color: hsl(26, 100%, 55%); font-weight: 400}
+.heading {color: hsl(220, 13%, 13%); font-weight: 700}
+.text {color: hsl(220, 14%, 75%); font-weight: 400;}
+.price {color: hsl(219, 9%, 45%); font-weight: 700;}
+.sale {color: hsl(26, 100%, 55%); background-color: hsl(25, 100%, 94%); font-weight: 400;}
+.priceslash {color: hsl(223, 64%, 98%); font-weight: 400;}
+
+.mobile-display{display:none}
+.desktop-display{display:block; max-width: 1440}
+@media (max-width:375){
+.desktop-display {display:none}
+.mobile-display {display:block}
+}
